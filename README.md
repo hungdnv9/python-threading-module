@@ -49,6 +49,7 @@ if __name__ == '__main__':
 # Result in different
 ```shell
 hungdnv@epson 11:03:48 ~/data/python-multiple-threading 
+# with threading
 $ python3 demo1.py 
 Start at: 11:07:02
 url: https://kenh14.vn, code: 200
@@ -56,7 +57,8 @@ url: https://news.zing.vn, code: 200
 url: https://vnexpress.net, code: 200
 Stop at: 11:07:05
 
-hungdnv@epson 11:07:05 ~/data/python-multiple-threading 
+hungdnv@epson 11:07:05 ~/data/python-multiple-threading
+# without threading
 $ python3 demo1.py 
 Start at: 11:07:29
 url: https://news.zing.vn, code: 200
